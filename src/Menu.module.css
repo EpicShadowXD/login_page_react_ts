@@ -1,0 +1,24 @@
+/* src/Menu.module.css */
+.nav {
+    background-color: #f8f9fa;
+    padding: 1rem;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,117 @@
+/* src/App.module.css */
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e1e2f;
+    color: #e0e0e0;
+    min-height: 100vh;
+    padding: 0 2rem;
+}
+
+.hero {
+    text-align: center;
+    margin: 4rem 0;
+    width: 100%;
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #a29bfe;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: #b3b3cc;
+}
+
+.sectionTitle {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #a29bfe;
+    text-align: center;
+}
+
+.projects {
+    margin: 2rem 0;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.projectGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.projectCard {
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.projectCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.projectCard h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+.projectCard p {
+    font-size: 1rem;
+    color: #dcdcdc;
+}
+
+.card1 {
+    background: linear-gradient(135deg, #a29bfe, #867ae9);
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.card2 {
+    background: linear-gradient(135deg, #74b9ff, #0984e3);
+}
+
+.card3 {
+    background: linear-gradient(135deg, #81ecec, #00cec9);
+    grid-column: span 2;
+}
+
+.card4 {
+    background: linear-gradient(135deg, #55efc4, #00b894);
+    grid-column: span 2;
+}
+
+.card5 {
+    background: linear-gradient(135deg, #ffeaa7, #fdcb6e);
+}
+
+.about {
+    margin: 2rem 0;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.about p {
+    font-size: 1.25rem;
+    color: #b3b3cc;
+}
+
+/* src/App.module.css */
+.projectGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the min and max width as needed */
+    gap: 1.5rem;
+    width: 100%;
+}
+

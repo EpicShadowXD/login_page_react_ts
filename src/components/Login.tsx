@@ -1,6 +1,6 @@
 // src/Login.tsx
 import React, { useState } from 'react';
-import styles from './Login.module.css';
+import styles from '../css/Login.module.css';
 
 const Login: React.FC = () => {
     const [email, setEmail] = useState<string>('');
@@ -15,6 +15,7 @@ const Login: React.FC = () => {
     return (
         <div className={styles.container}>
             <form onSubmit={handleSubmit} className={styles.form}>
+                <h2 className={styles.title}>Login</h2>
                 <div className={styles.formGroup}>
                     <label>Email:</label>
                     <input

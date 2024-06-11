@@ -3,12 +3,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #2e2e3f;
     padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .logo a {
-    color: #fff;
+    color: #a29bfe;
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: bold;
@@ -17,17 +18,18 @@
 .navLinks {
     list-style: none;
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .navItem a {
-    color: #fff;
+    color: #e0e0e0;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 4px;
 }
 
 .navItem a:hover {
-    background-color: #555;
-    border-radius: 4px;
+    background-color: #3e3e5f;
+    color: #a29bfe;
 }
